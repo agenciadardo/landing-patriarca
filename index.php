@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Quicksand:400,700' />
         <link rel="stylesheet" href="css/styles.css" />
         <script src="js/scripts.js"></script>
         <title>Patriarca : Atualização de cadastro</title>
@@ -12,9 +13,15 @@
             <div id="cabecalho">
 
                 <div class="linha-um">
+                    <!--[if lt IE 9]>
+                        <img src="imagens/texto_cabecalho.png" alt="" />
+                    <![endif]-->
+
+                    <!--[if !IE]><!-->
                     <h1>
-                        Atualiza o seu cadastro
+                        Atualize o seu cadastro
                     </h1>
+                    <!--<![endif]-->
                 </div>
 
                 <div class="linha-dois">
@@ -93,7 +100,7 @@
                         <div class="formulario-comunicar-pessoas">
                             <h1>
                                 Pessoas a serem comunicadas por ordem 
-                                de prioridade no caso de sinais de alarme.
+                                de prioridade no caso de sinais de alarme
                             </h1>
 
                             <table>

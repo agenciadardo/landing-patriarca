@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    border:0;
+    font-family:Arial, sans-serif;
+    font-weight:300;
+}
+
+body{
+    background:rgb(255, 255, 255);
+}
+
+    #container{
+        margin:0 auto;
+        background:rgb(236, 236, 236) url('../imagens/bg_container.jpg') no-repeat;
+        width:960px;
+    }
+
+        #cabecalho{
+            margin-bottom:30px;
+            border-top:5px solid rgb(0, 0, 0);
+            padding:30px 0 30px 0;
+            text-align:center;
+            text-transform:uppercase;
+            background:rgb(19, 39, 63) url('../imagens/bg_cabecalho.jpg') repeat-x;
+        }
+
+            .linha-um h1{
+                color:yellow;
+                font-size:45px;
+                font-weight:900;
+                margin-bottom:15px;
+                background:rgb(240,193,79);
+                background:-moz-linear-gradient(left, rgb(240,193,79) 47%, rgb(140,83,59) 100%);
+                background:-webkit-gradient(linear, left top, right top, color-stop(47%,rgb(240,193,79)), color-stop(100%,rgb(140,83,59)));
+                background:linear-gradient(to right, rgb(240,193,79) 47%,rgb(140,83,59) 100%);
+                -webkit-background-clip:text;
+                -webkit-text-fill-color:transparent;
+            }
+
+            .linha-um img{
+                margin-bottom:15px;
+            }
+
+            .linha-dois h2{
+                font-size:30px;
+                font-weight:600;
+                color:rgb(255, 255, 255);
+            }
+
+        .cabecalho-formulario{
+            text-align:center;
+        }
+
+            .cabecalho-formulario h1{
+                letter-spacing:-2px;
+                font-weight:bold;
+                font-family:'Quicksand',sans-serif;
+                color:rgb(130, 130, 130);
+                margin-bottom:15px;
+            }
+
+        /* Formulários */
+        .formularios{
+            width:610px;
+            margin-left:170px;
+        }
+
+            .formularios input[type="text"]{
+                margin-bottom:5px;
+                height:20px;
+                background:rgb(255, 255, 255) url('../imagens/bg_textbox.jpg') repeat-x bottom;
+                border:1px solid #CCC;
+            }
+
+        .formularios #textbox-nome,
+        .formularios .textarea-comentario{
+            width:555px;
+        }
+
+        .formularios #textbox-nome-fantasia{
+            width:262px;
+        }
+
+        .formularios #textbox-endereco-instalacao{
+            width:291px;
+        }
+
+        .formularios #textbox-bairro{
+            width:120px;
+        }
+
+        .formularios #textbox-cidade,
+        .formularios #textbox-cep{
+            width:141px;
+        }
+
+        .formularios #textbox-nome-contato{
+            width:478px;
+        }
+
+        .formularios #textbox-telefone,
+        .formularios #textbox-email{
+            width:239px;
+        }   
+
+            .formulario-comunicar-pessoas{
+                margin-top:20px;
+                text-align:center;
+            }            
+
+            .formulario-comunicar-pessoas h1{
+                text-transform:uppercase;
+                color:rgb(19, 39, 63);
+                font-size:20px;
+                font-weight:bold;
+                margin-bottom:15px;
+            }
+
+

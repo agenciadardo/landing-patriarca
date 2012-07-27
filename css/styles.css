@@ -118,4 +118,32 @@ body{
                 margin-bottom:15px;
             }
 
+    table .tabela-comunicar-pessoas-linha-1{
+        height:30px;
+        padding:14px;
+        color:rgb(255, 255, 255);
+        background:rgb(57, 102, 143);
+    }
+
+    table.tabela-comunicar-pessoas td{
+        width:150px;
+    }
+
+    table.tabela-comunicar-pessoas input{
+        width:148px;
+    }
+
+    table.tabela-comunicar-pessoas #textbox-nome-completo-linha-1,
+    table.tabela-comunicar-pessoas #textbox-nome-completo-linha-2,
+    table.tabela-comunicar-pessoas #textbox-nome-completo-linha-3,
+    table.tabela-comunicar-pessoas #textbox-nome-completo-linha-4{
+        width:130px;
+    }
+
+    table.tabela-comunicar-pessoas #textbox-ddd-linha-1,
+    table.tabela-comunicar-pessoas #textbox-ddd-linha-2,
+    table.tabela-comunicar-pessoas #textbox-ddd-linha-3,
+    table.tabela-comunicar-pessoas #textbox-ddd-linha-4{
+        width:126px;
+    }
 

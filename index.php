@@ -103,8 +103,8 @@
                                 de prioridade no caso de sinais de alarme
                             </h1>
 
-                            <table>
-                                <tr>
+                            <table class="tabela-comunicar-pessoas">
+                                <tr class="tabela-comunicar-pessoas-linha-1">
                                     <td>
                                         <label for="textbox-nome-completo-linha-1">
                                             Nome completo
@@ -479,6 +479,7 @@
             </div>
 
             <div id="rodape">
+
                 <div class="rodape-logotipo">
                     <img src="imagens/logotipo.jpg" alt="" />
                 </div>

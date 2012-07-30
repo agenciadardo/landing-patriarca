@@ -74,12 +74,18 @@ body{
                 border:1px solid #CCC;
             }
 
+            .formularios textarea{
+                background:rgb(255, 255, 255) url('../imagens/bg_textarea.jpg') repeat-x bottom;
+                border:1px solid #CCC;
+                resize:none;
+            }
+
             .formularios input[type="text"]:focus,
             .formularios textarea:focus{
                 -webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
                 -moz-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
                 box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
-                border:1px solid #999;
+                border:1px solid rgb(153, 153, 153);
             }
 
             .formulario-cadastro-inicial input,
@@ -87,8 +93,7 @@ body{
                 margin-bottom:5px;
             }
 
-        .formularios #textbox-nome,
-        .formularios .textarea-comentario{
+        .formularios #textbox-nome{
             width:555px;
         }
 
@@ -129,10 +134,11 @@ body{
             .formulario-comunicar-pessoas h1,
             .formulario-arme-desarme h1,
             .formulario-painel-de-alarme h1,
-            .formulario-painel-de-alarme h2{
+            .formulario-painel-de-alarme h2,
+            .formulario-comentario h1{
                 text-transform:uppercase;
                 color:rgb(19, 39, 63);
-                font-size:20px;
+                font-size:18px;
                 font-weight:bold;
                 margin-bottom:15px;
                 text-align:center;
@@ -236,4 +242,32 @@ body{
                 height:25px;
             }
 
+            .formulario-comentario{
+                margin-top:25px;
+            }
+
+            textarea.textarea-comentario{
+                height:100px;
+                width:605px;    
+            }
+
+            .enviar{
+                text-align:center;
+                margin-top:25px;
+            }
+
+            .enviar input{
+                letter-spacing:2px;
+                font-size:15px;
+                color:rgb(255, 255, 255);
+                padding:5px;
+                background:rgb(57, 102, 143);
+                border:1px solid rgb(255, 255, 255);
+            }
+
+            .enviar input:hover{
+                -webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
+                -moz-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
+                box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
+            }
 

@@ -54,6 +54,7 @@ body{
         }
 
             .cabecalho-formulario h1{
+                width:850px;
                 letter-spacing:-2px;
                 font-weight:bold;
                 font-family:'Quicksand',sans-serif;
@@ -64,7 +65,7 @@ body{
         /* Formulários */
         .formularios{
             width:610px;
-            margin-left:170px;
+            margin-left:115px;
         }
 
             .formularios input[type="text"]{
@@ -110,40 +111,99 @@ body{
                 text-align:center;
             }            
 
-            .formulario-comunicar-pessoas h1{
+                .formulario-comunicar-pessoas input{
+                    margin:0 !important;
+                }
+            .formulario-comunicar-pessoas h1,
+            .formulario-arme-desarme h1,
+            .formulario-painel-de-alarme h1,
+            .formulario-painel-de-alarme h2{
                 text-transform:uppercase;
                 color:rgb(19, 39, 63);
                 font-size:20px;
                 font-weight:bold;
                 margin-bottom:15px;
+                text-align:center;
             }
 
     table .tabela-comunicar-pessoas-linha-1{
         height:30px;
-        padding:14px;
         color:rgb(255, 255, 255);
         background:rgb(57, 102, 143);
     }
 
-    table.tabela-comunicar-pessoas td{
+    .tabela-coluna-escura{
+        padding:3px 10px 0 11px;
+        background:rgb(26, 37, 57);
+        color:white;
+    }
+
+    .tabela-nome-completo{
+        width:260px;
+    }
+
+    .tabela-ddd{
+        width:39px;
+    }
+
+    .tabela-telefone-residencial,
+    .tabela-telefone-movel{
+        width:153px;
+    }
+
+    table #textbox-nome-completo-linha-1,
+    table #textbox-nome-completo-linha-2,
+    table #textbox-nome-completo-linha-3,
+    table #textbox-nome-completo-linha-4{
+        width:218px;
+    }
+
+    table #textbox-telefone-residencial-linha-1,
+    table #textbox-telefone-residencial-linha-2,
+    table #textbox-telefone-residencial-linha-3,
+    table #textbox-telefone-residencial-linha-4,
+    table #textbox-telefone-movel-linha-1,
+    table #textbox-telefone-movel-linha-2,
+    table #textbox-telefone-movel-linha-3,
+    table #textbox-telefone-movel-linha-4{
         width:150px;
     }
 
-    table.tabela-comunicar-pessoas input{
-        width:148px;
-    }
+        .formulario-arme-desarme{
+            margin-top:25px;
+        }
 
-    table.tabela-comunicar-pessoas #textbox-nome-completo-linha-1,
-    table.tabela-comunicar-pessoas #textbox-nome-completo-linha-2,
-    table.tabela-comunicar-pessoas #textbox-nome-completo-linha-3,
-    table.tabela-comunicar-pessoas #textbox-nome-completo-linha-4{
-        width:130px;
-    }
+            input#textbox-horario-seg-a-sex{
+                width:445px;
+            }
 
-    table.tabela-comunicar-pessoas #textbox-ddd-linha-1,
-    table.tabela-comunicar-pessoas #textbox-ddd-linha-2,
-    table.tabela-comunicar-pessoas #textbox-ddd-linha-3,
-    table.tabela-comunicar-pessoas #textbox-ddd-linha-4{
-        width:126px;
-    }
+            input#textbox-dom-e-feriado{
+                width:247px;
+            }
+
+        .formulario-painel-de-alarme{
+            margin-top:20px;
+            text-align:center;
+        }
+
+            .tabela-painel-de-alarme-linha-1{
+                padding:14px;
+                height:30px;
+                color:rgb(255, 255, 255);
+                background:rgb(57, 102, 143);
+            }
+
+            .formulario-painel-de-alarme h2{
+                margin:-15px 0 20px 50px;
+                font-size:14px;
+                width:490px;
+            }
+
+            .tabela-usuario{
+                width:90px;
+            }
+            .tabela-nome-completo-painel{}
+            .tabela-cargo{}
+            .tabela-data-nascimento{}
+
 

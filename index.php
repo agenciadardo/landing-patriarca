@@ -105,172 +105,166 @@
 
                             <table class="tabela-comunicar-pessoas">
                                 <tr class="tabela-comunicar-pessoas-linha-1">
-                                    <td>
+                                    <td class="tabela-nome-completo">
                                         <label for="textbox-nome-completo-linha-1">
                                             Nome completo
                                         </label>
                                     </td>
 
-                                    <td>
-                                        <label for="textbox-ddd-linha-1">
+                                    <td class="tabela-ddd">
+                                        <label for="textbox-telefone-residencial-linha-1">
                                             DDD
                                         </label>
                                     </td>
 
-                                    <td>
+                                    <td class="tabela-telefone-residencial">
                                         <label for="textbox-telefone-residencial-linha-1">
                                             Telefone residencial
                                         </label>
                                     </td>
 
-                                    <td>
+                                    <td class="tabela-telefone-movel">
                                         <label for="textbox-telefone-movel-linha-1">
                                             Telefone móvel
                                         </label>
                                     </td>
                                 </tr>
-                                
+                            </table>
+
+                            <table class="tabela-comunicar-pessoas-conteudo">
                                 <!-- Linha 1 -->
                                 <tr>
-                                    <td>
+                                    <td class="tabela-coluna-escura">
                                         <label for="textbox-nome-completo-linha-1">
                                             1º
                                         </label>
+                                    </td>
 
+                                    <td>
                                         <input id="textbox-nome-completo-linha-1" 
                                                type="text" 
                                                name="textbox-nome-completo-linha-1" />
                                     </td>
 
-                                    <td>
-                                        <label for="textbox-ddd-linha-1">
+                                    <td class="tabela-coluna-escura">
+                                        <label for="textbox-telefone-residencial-linha-1">
                                             11
                                         </label>
-
-                                        <input id="textbox-ddd-linha-1"
-                                               type="text"
-                                               name="textbox-ddd-linha-1" />
                                     </td>
 
                                     <td>
                                         <input id="textbox-telefone-residencial-linha-1"
                                                type="text"
                                                name="textbox-telefone-residencial-linha-1" />
-
                                     </td>
 
                                     <td>
                                         <input id="textbox-telefone-movel-linha-1"
                                                type="text"
                                                name="textbox-telefone-movel-linha-1" />
+
                                     </td>
                                 </tr>
 
                                 <!-- Linha 2 -->
                                 <tr>
-                                    <td>
+                                    <td class="tabela-coluna-escura">
                                         <label for="textbox-nome-completo-linha-2">
                                             2º
                                         </label>
+                                    </td>
 
+                                    <td>
                                         <input id="textbox-nome-completo-linha-2" 
                                                type="text" 
                                                name="textbox-nome-completo-linha-2" />
                                     </td>
 
-                                    <td>
-                                        <label for="textbox-ddd-linha-2">
+                                    <td class="tabela-coluna-escura">
+                                        <label for="textbox-telefone-residencial-linha-2">
                                             11
                                         </label>
-
-                                        <input id="textbox-ddd-linha-2"
-                                               type="text"
-                                               name="textbox-ddd-linha-2" />
                                     </td>
 
                                     <td>
                                         <input id="textbox-telefone-residencial-linha-2"
                                                type="text"
                                                name="textbox-telefone-residencial-linha-2" />
-
                                     </td>
 
                                     <td>
                                         <input id="textbox-telefone-movel-linha-2"
                                                type="text"
                                                name="textbox-telefone-movel-linha-2" />
+
                                     </td>
                                 </tr>
 
                                 <!-- Linha 3 -->
                                 <tr>
-                                    <td>
+                                    <td class="tabela-coluna-escura">
                                         <label for="textbox-nome-completo-linha-3">
                                             3º
                                         </label>
+                                    </td>
 
+                                    <td>
                                         <input id="textbox-nome-completo-linha-3" 
                                                type="text" 
                                                name="textbox-nome-completo-linha-3" />
                                     </td>
 
-                                    <td>
-                                        <label for="textbox-ddd-linha-3">
+                                    <td class="tabela-coluna-escura">
+                                        <label for="textbox-telefone-residencial-linha-3">
                                             11
                                         </label>
-
-                                        <input id="textbox-ddd-linha-3"
-                                               type="text"
-                                               name="textbox-ddd-linha-3" />
                                     </td>
 
                                     <td>
                                         <input id="textbox-telefone-residencial-linha-3"
                                                type="text"
                                                name="textbox-telefone-residencial-linha-3" />
-
                                     </td>
 
                                     <td>
                                         <input id="textbox-telefone-movel-linha-3"
                                                type="text"
                                                name="textbox-telefone-movel-linha-3" />
+
                                     </td>
                                 </tr>
 
                                 <!-- Linha 4 -->
                                 <tr>
-                                    <td>
+                                    <td class="tabela-coluna-escura">
                                         <label for="textbox-nome-completo-linha-4">
                                             4º
                                         </label>
+                                    </td>
 
+                                    <td>
                                         <input id="textbox-nome-completo-linha-4" 
                                                type="text" 
                                                name="textbox-nome-completo-linha-4" />
                                     </td>
 
-                                    <td>
-                                        <label for="textbox-ddd-linha-4">
+                                    <td class="tabela-coluna-escura">
+                                        <label for="textbox-telefone-residencial-linha-4">
                                             11
                                         </label>
-
-                                        <input id="textbox-ddd-linha-4"
-                                               type="text"
-                                               name="textbox-ddd-linha-4" />
                                     </td>
 
                                     <td>
                                         <input id="textbox-telefone-residencial-linha-4"
                                                type="text"
                                                name="textbox-telefone-residencial-linha-4" />
-
                                     </td>
 
                                     <td>
                                         <input id="textbox-telefone-movel-linha-4"
                                                type="text"
                                                name="textbox-telefone-movel-linha-4" />
+
                                     </td>
                                 </tr>
                             </table>
@@ -313,30 +307,30 @@
                             
                             <h2>
                                 (Este cadastro é definido pela posição do usuário no
-                                teclado de acesso.)
+                                teclado de acesso).
                             </h2>
 
                             <table>
-                                <tr>
-                                    <td>
+                                <tr class="tabela-painel-de-alarme-linha-1">
+                                    <td class="tabela-usuario">
                                         <label for="textbox-nome-completo-painel-linha-1">
                                             Usuário
                                         </label>
                                     </td>
 
-                                    <td>
+                                    <td class="tabela-nome-completo-painel">
                                         <label for="textbox-nome-completo-painel-linha-1">
                                             Nome completo
                                         </label>
                                     </td>
 
-                                    <td>
+                                    <td class="tabela-cargo">
                                         <label for="textbox-cargo-linha-1">
                                             Cargo
                                         </label>
                                     </td>
 
-                                    <td>
+                                    <td class="tabela-data-nascimento">
                                         <label for="textbox-data-nascimento-linha-1">
                                             Data de nasc.
                                         </label>
@@ -345,7 +339,7 @@
 
                                 <!-- Linha 1 -->
                                 <tr>
-                                    <td>
+                                    <td class="tabela-coluna-escura">
                                         <label for="textbox-nome-completo-painel-linha-1">
                                             1º
                                         </label>
@@ -373,7 +367,7 @@
 
                                 <!-- Linha 2 -->
                                 <tr>
-                                    <td>
+                                    <td class="tabela-coluna-escura">
                                         <label for="textbox-nome-completo-painel-linha-2">
                                             2º
                                         </label>
@@ -401,7 +395,7 @@
 
                                 <!-- Linha 3 -->
                                 <tr>
-                                    <td>
+                                    <td class="tabela-coluna-escura">
                                         <label for="textbox-nome-completo-painel-linha-3">
                                             3º
                                         </label>
@@ -429,7 +423,7 @@
 
                                 <!-- Linha 4 -->
                                 <tr>
-                                    <td>
+                                    <td class="tabela-coluna-escura">
                                         <label for="textbox-nome-completo-painel-linha-4">
                                             4º
                                         </label>

@@ -69,10 +69,22 @@ body{
         }
 
             .formularios input[type="text"]{
-                margin-bottom:5px;
-                height:20px;
+                height:25px;
                 background:rgb(255, 255, 255) url('../imagens/bg_textbox.jpg') repeat-x bottom;
                 border:1px solid #CCC;
+            }
+
+            .formularios input[type="text"]:focus,
+            .formularios textarea:focus{
+                -webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
+                -moz-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
+                box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
+                border:1px solid #999;
+            }
+
+            .formulario-cadastro-inicial input,
+            .formulario-arme-desarme input{
+                margin-bottom:5px;
             }
 
         .formularios #textbox-nome,
@@ -130,6 +142,10 @@ body{
         height:30px;
         color:rgb(255, 255, 255);
         background:rgb(57, 102, 143);
+    }
+
+    .tabela-comunicar-pessoas-conteudo{
+        margin-top:-2px;
     }
 
     .tabela-coluna-escura{
@@ -202,8 +218,22 @@ body{
             .tabela-usuario{
                 width:90px;
             }
-            .tabela-nome-completo-painel{}
-            .tabela-cargo{}
-            .tabela-data-nascimento{}
+
+            input#textbox-nome-completo-painel-linha-1,
+            input#textbox-nome-completo-painel-linha-2,
+            input#textbox-nome-completo-painel-linha-3,
+            input#textbox-nome-completo-painel-linha-4,
+            input#textbox-cargo-linha-1,
+            input#textbox-cargo-linha-2,
+            input#textbox-cargo-linha-3,
+            input#textbox-cargo-linha-4,
+            input#textbox-data-nascimento-linha-1,
+            input#textbox-data-nascimento-linha-2,
+            input#textbox-data-nascimento-linha-3,
+            input#textbox-data-nascimento-linha-4{
+                width:170px;
+                margin:0px;
+                height:25px;
+            }
 
 

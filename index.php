@@ -455,7 +455,7 @@
 
                         <div class="formulario-comentario">
                             <h1>
-                                Sua opinião é muito importante, deixe o seu comentário
+                                Sua opinião é muito importante, deixe o seu comentári<span class="white">o</span>
                             </h1>
 
                             <textarea class="textarea-comentario" name="textarea-comentario">

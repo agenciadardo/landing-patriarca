@@ -7,6 +7,10 @@
     font-weight:300;
 }
 
+.white{
+    color:rgb(255, 255, 255);
+}
+
 body{
     background:rgb(255, 255, 255);
 }

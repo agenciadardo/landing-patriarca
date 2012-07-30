@@ -13,7 +13,7 @@ body{
 
     #container{
         margin:0 auto;
-        background:rgb(236, 236, 236) url('../imagens/bg_container.jpg') no-repeat;
+        background:rgb(236, 236, 236) url('../imagens/bg_container.jpg') no-repeat -20px 20px;
         width:960px;
     }
 
@@ -27,7 +27,6 @@ body{
         }
 
             .linha-um h1{
-                color:yellow;
                 font-size:45px;
                 font-weight:900;
                 margin-bottom:15px;
@@ -253,7 +252,7 @@ body{
 
             .enviar{
                 text-align:center;
-                margin-top:25px;
+                margin:25px 0 50px 0;
             }
 
             .enviar input{
@@ -270,4 +269,46 @@ body{
                 -moz-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
                 box-shadow:0px 0px 5px rgba(0, 0, 0, 0.35);
             }
+    /* end Formulários */
 
+    #rodape{        
+        height:175px;
+        background:rgb(0, 12, 26);
+    }
+
+        .rodape-logotipo{
+            display:block;
+            width:480px;
+            float:left;
+            margin:25px 0 25px 0;
+            text-align:right;
+        }
+
+        .rodape-contato{
+            display:block;
+            width:480px;
+            float:left;
+            color:rgb(255, 255, 255);
+            padding-top:25px;
+            text-align:center;
+        }
+
+            .rodape-contato h1{
+                text-transform:uppercase;
+                font-weight:bold;
+                margin-bottom:20px;
+            }
+
+            .rodape-contato h1 span{
+                text-transform:lowercase;
+            }
+
+            .rodape-contato a{
+                font-size:20px;
+                text-decoration:none;
+                color:rgb(255, 255, 255);
+            }
+
+            .rodape-contato a:hover{
+                color:rgb(240, 190, 69);
+            }

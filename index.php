@@ -41,64 +41,64 @@
                 </div>
 
                 <div class="formularios">
-                    <div class="formulario-cadastro-inicial">
                         <form method="post" action="cadastrar.php">
-                            <label for="textbox-nome">Nome: </label>
-                            <input id="textbox-nome" 
-                                   type="text" 
-                                   name="textbox-nome" /><br />
+                            <div class="formulario-cadastro-inicial">
+                                <label for="textbox-nome">Nome: </label>
+                                <input id="textbox-nome" 
+                                       type="text" 
+                                       name="textbox-nome" /><br />
 
-                            <label for="textbox-nome-fantasia">Nome fantasia: </label>
-                            <input id="textbox-nome-fantasia" 
-                                   type="text" 
-                                   name="textbox-nome-fantasia" />
-                            
-                            <label for="textbox-cnpj-rg">CNPJ/RG: </label>
-                            <input id="textbox-cnpj-rg" 
-                                   type="text" 
-                                   name="textbox-cnpj-rg" /><br />
-                            
-                            <label for="textbox-endereco-instalacao">End. de instalação: </label>
-                            <input id="textbox-endereco-instalacao" 
-                                   type="text" 
-                                   name="textbox-endereco-instalacao" />
+                                <label for="textbox-nome-fantasia">Nome fantasia: </label>
+                                <input id="textbox-nome-fantasia" 
+                                       type="text" 
+                                       name="textbox-nome-fantasia" />
+                                
+                                <label for="textbox-cnpj-rg">CNPJ/RG: </label>
+                                <input id="textbox-cnpj-rg" 
+                                       type="text" 
+                                       name="textbox-cnpj-rg" /><br />
+                                
+                                <label for="textbox-endereco-instalacao">End. de instalação: </label>
+                                <input id="textbox-endereco-instalacao" 
+                                       type="text" 
+                                       name="textbox-endereco-instalacao" />
 
-                            <label for="textbox-bairro">Bairro: </label>
-                            <input id="textbox-bairro" 
-                                   type="text" 
-                                   name="textbox-bairro" /><br />
+                                <label for="textbox-bairro">Bairro: </label>
+                                <input id="textbox-bairro" 
+                                       type="text" 
+                                       name="textbox-bairro" /><br />
 
-                            <label for="textbox-estado">Estado: </label>
-                            <input id="textbox-estado" 
-                                   type="text" 
-                                   name="textbox-estado" />
+                                <label for="textbox-estado">Estado: </label>
+                                <input id="textbox-estado" 
+                                       type="text" 
+                                       name="textbox-estado" />
 
-                            <label for="textbox-cidade">Cidade: </label>
-                            <input id="textbox-cidade" 
-                                   type="text" 
-                                   name="textbox-cidade" />
+                                <label for="textbox-cidade">Cidade: </label>
+                                <input id="textbox-cidade" 
+                                       type="text" 
+                                       name="textbox-cidade" />
 
-                            <label for="textbox-cep">CEP: </label>
-                            <input id="textbox-cep" 
-                                   type="text"
-                                   name="textbox-cep" /><br />
+                                <label for="textbox-cep">CEP: </label>
+                                <input id="textbox-cep" 
+                                       type="text"
+                                       name="textbox-cep" /><br />
 
-                            <label for="textbox-nome-contato">Nome do contato: </label>
-                            <input id="textbox-nome-contato" 
-                                   type="text"
-                                   name="textbox-nome-contato" /><br />
+                                <label for="textbox-nome-contato">Nome do contato: </label>
+                                <input id="textbox-nome-contato" 
+                                       type="text"
+                                       name="textbox-nome-contato" /><br />
 
-                            <label for="textbox-telefone">Telefone: </label>
-                            <input id="textbox-telefone"
-                                   type="text" 
-                                   name="textbox-telefone" />
+                                <label for="textbox-telefone">Telefone: </label>
+                                <input id="textbox-telefone"
+                                       type="text" 
+                                       name="textbox-telefone" />
 
-                            <label for="textbox-email">E-mail: </label>
-                            <input id="textbox-email"
-                                   type="text" 
-                                   name="textbox-email" />
+                                <label for="textbox-email">E-mail: </label>
+                                <input id="textbox-email"
+                                       type="text" 
+                                       name="textbox-email" />
                         </div>
-                        
+
                         <div class="formulario-comunicar-pessoas">
                             <h1>
                                 Pessoas a serem comunicadas por ordem 
@@ -487,7 +487,7 @@
                             tel: 55 (11) 3586-6600 
                         </span>
                     </h1>
-                    <a href="#website">www.grupopatriarca.com.br</a>
+                    <a href="http://www.grupopatriarca.com.br">www.grupopatriarca.com.br</a>
                 </div>
             </div>
 

@@ -7,10 +7,6 @@
     font-weight:300;
 }
 
-.white{
-    color:rgb(255, 255, 255);
-}
-
 body{
     background:rgb(255, 255, 255);
 }
@@ -57,7 +53,7 @@ body{
         }
 
             .cabecalho-formulario h1{
-                width:850px;
+                width:790px;
                 letter-spacing:-2px;
                 font-weight:bold;
                 font-family:'Quicksand',sans-serif;
@@ -68,7 +64,7 @@ body{
         /* Formulários */
         .formularios{
             width:610px;
-            margin-left:115px;
+            margin-left:95px;
         }
 
             .formularios input[type="text"]{

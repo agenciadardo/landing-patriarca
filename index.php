@@ -5,9 +5,15 @@
         <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Quicksand:400,700' />
         <link rel="stylesheet" href="css/styles.css" />
         <script src="js/scripts.js"></script>
-        <title>Patriarca : Atualização de cadastro</title>
+        <title>Grupo Patriarca : Atualização de cadastro</title>
     </head>
+
+<?php if (empty($_GET['enviado'])) { ?>
     <body>
+<?php }
+else { ?>
+    <body onload="window.alert('Cadastro enviado com sucesso!\n\n Obrigado!');">
+<?php } ?>
         <div id="container">
             
             <div id="cabecalho">

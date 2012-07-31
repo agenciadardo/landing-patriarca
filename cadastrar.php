@@ -131,7 +131,7 @@
     <p><b>Data de nascimento / Painel de alarme / 4ª usuário:</b> " . $dataNascLinha4 . "</p>";
     $conteudo .= "
     <b>Comentário:</b> <pre>" . $comentario . "</pre>";
-    
+
     $data_atual = date('d/m/Y H:i:s');
     $nome_remetente = "Atualização de cadastro - Grupo Patriarca";
     $email_remetente .= $email;
@@ -142,9 +142,7 @@
     if (!mail($destinatario, $assunto, $conteudo, $header, "-r".$destinatario)) {
         mail($destinatario, $assunto, $conteudo, $header);
     }
-    
     echo "<meta http-equiv='refresh' content='0;url=http://www.grupopatriarca.com.br/atualize-o-seu-cadastro/?enviado=1' />";
-
     ?>
     </head>
     <body>

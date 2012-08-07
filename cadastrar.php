@@ -13,45 +13,45 @@
     }
 
     $destinatario = "vendas@grupopatriarca.com.br";
-    $nome = htmlspecialchars($_POST['textbox-nome']);
-    $nomeFantasia = htmlspecialchars($_POST['textbox-nome-fantasia']);
-    $cnpjRg = htmlspecialchars($_POST['textbox-cnpj-rg']);
-    $endInstalacao = htmlspecialchars($_POST['textbox-endereco-instalacao']);
-    $bairro = htmlspecialchars($_POST['textbox-bairro']);
-    $estado = htmlspecialchars($_POST['textbox-estado']);
-    $cidade = htmlspecialchars($_POST['textbox-cidade']);
-    $cep = htmlspecialchars($_POST['textbox-cep']);
-    $contato = htmlspecialchars($_POST['textbox-nome-contato']);
-    $telefone = htmlspecialchars($_POST['textbox-telefone']);
-    $email = htmlspecialchars($_POST['textbox-email']);
-    $nomeCompletoLinha1 = htmlspecialchars($_POST['textbox-nome-completo-linha-1']);
-    $nomeCompletoLinha2 = htmlspecialchars($_POST['textbox-nome-completo-linha-2']);
-    $nomeCompletoLinha3 = htmlspecialchars($_POST['textbox-nome-completo-linha-3']);
-    $nomeCompletoLinha4 = htmlspecialchars($_POST['textbox-nome-completo-linha-4']);
-    $telefoneResidencialLinha1 = htmlspecialchars($_POST['textbox-telefone-residencial-linha-1']);
-    $telefoneResidencialLinha2 = htmlspecialchars($_POST['textbox-telefone-residencial-linha-2']);
-    $telefoneResidencialLinha3 = htmlspecialchars($_POST['textbox-telefone-residencial-linha-3']);
-    $telefoneResidencialLinha4 = htmlspecialchars($_POST['textbox-telefone-residencial-linha-4']);
-    $telefoneMovelLinha1 = htmlspecialchars($_POST['textbox-telefone-movel-linha-1']);
-    $telefoneMovelLinha2 = htmlspecialchars($_POST['textbox-telefone-movel-linha-2']);
-    $telefoneMovelLinha3 = htmlspecialchars($_POST['textbox-telefone-movel-linha-3']);
-    $telefoneMovelLinha4 = htmlspecialchars($_POST['textbox-telefone-movel-linha-4']);
-    $horarioSegSex = htmlspecialchars($_POST['textbox-horario-seg-a-sex']);
-    $horarioSab = htmlspecialchars($_POST['textbox-horario-sab']);
-    $horarioDomFeriado = htmlspecialchars($_POST['textbox-dom-e-feriado']);
-    $nomeCompletoPainel1 = htmlspecialchars($_POST['textbox-nome-completo-painel-linha-1']);
-    $nomeCompletoPainel2 = htmlspecialchars($_POST['textbox-nome-completo-painel-linha-2']);
-    $nomeCompletoPainel3 = htmlspecialchars($_POST['textbox-nome-completo-painel-linha-3']);
-    $nomeCompletoPainel4 = htmlspecialchars($_POST['textbox-nome-completo-painel-linha-4']);
-    $cargoLinha1 = htmlspecialchars($_POST['textbox-cargo-linha-1']);
-    $cargoLinha2 = htmlspecialchars($_POST['textbox-cargo-linha-2']);
-    $cargoLinha3 = htmlspecialchars($_POST['textbox-cargo-linha-3']);
-    $cargoLinha4 = htmlspecialchars($_POST['textbox-cargo-linha-4']);
-    $dataNascLinha1 = htmlspecialchars($_POST['textbox-data-nascimento-linha-1']);
-    $dataNascLinha2 = htmlspecialchars($_POST['textbox-data-nascimento-linha-2']);
-    $dataNascLinha3 = htmlspecialchars($_POST['textbox-data-nascimento-linha-3']);
-    $dataNascLinha4 = htmlspecialchars($_POST['textbox-data-nascimento-linha-4']);
-    $comentario = htmlspecialchars($_POST['textarea-comentario']);
+    $nome = $_POST['textbox-nome'];
+    $nomeFantasia = $_POST['textbox-nome-fantasia'];
+    $cnpjRg = $_POST['textbox-cnpj-rg'];
+    $endInstalacao = $_POST['textbox-endereco-instalacao'];
+    $bairro = $_POST['textbox-bairro'];
+    $estado = $_POST['textbox-estado'];
+    $cidade = $_POST['textbox-cidade'];
+    $cep = $_POST['textbox-cep'];
+    $contato = $_POST['textbox-nome-contato'];
+    $telefone = $_POST['textbox-telefone'];
+    $email = $_POST['textbox-email'];
+    $nomeCompletoLinha1 = $_POST['textbox-nome-completo-linha-1'];
+    $nomeCompletoLinha2 = $_POST['textbox-nome-completo-linha-2'];
+    $nomeCompletoLinha3 = $_POST['textbox-nome-completo-linha-3'];
+    $nomeCompletoLinha4 = $_POST['textbox-nome-completo-linha-4'];
+    $telefoneResidencialLinha1 = $_POST['textbox-telefone-residencial-linha-1'];
+    $telefoneResidencialLinha2 = $_POST['textbox-telefone-residencial-linha-2'];
+    $telefoneResidencialLinha3 = $_POST['textbox-telefone-residencial-linha-3'];
+    $telefoneResidencialLinha4 = $_POST['textbox-telefone-residencial-linha-4'];
+    $telefoneMovelLinha1 = $_POST['textbox-telefone-movel-linha-1'];
+    $telefoneMovelLinha2 = $_POST['textbox-telefone-movel-linha-2'];
+    $telefoneMovelLinha3 = $_POST['textbox-telefone-movel-linha-3'];
+    $telefoneMovelLinha4 = $_POST['textbox-telefone-movel-linha-4'];
+    $horarioSegSex = $_POST['textbox-horario-seg-a-sex'];
+    $horarioSab = $_POST['textbox-horario-sab'];
+    $horarioDomFeriado = $_POST['textbox-dom-e-feriado'];
+    $nomeCompletoPainel1 = $_POST['textbox-nome-completo-painel-linha-1'];
+    $nomeCompletoPainel2 = $_POST['textbox-nome-completo-painel-linha-2'];
+    $nomeCompletoPainel3 = $_POST['textbox-nome-completo-painel-linha-3'];
+    $nomeCompletoPainel4 = $_POST['textbox-nome-completo-painel-linha-4'];
+    $cargoLinha1 = $_POST['textbox-cargo-linha-1'];
+    $cargoLinha2 = $_POST['textbox-cargo-linha-2'];
+    $cargoLinha3 = $_POST['textbox-cargo-linha-3'];
+    $cargoLinha4 = $_POST['textbox-cargo-linha-4'];
+    $dataNascLinha1 = $_POST['textbox-data-nascimento-linha-1'];
+    $dataNascLinha2 = $_POST['textbox-data-nascimento-linha-2'];
+    $dataNascLinha3 = $_POST['textbox-data-nascimento-linha-3'];
+    $dataNascLinha4 = $_POST['textbox-data-nascimento-linha-4'];
+    $comentario = $_POST['textarea-comentario'];
 
     $conteudo .= "
     <p><b>Nome:</b> " . $nome . "</p>";
@@ -134,12 +134,13 @@
 
     $data_atual = date('d/m/Y H:i:s');
     $nome_remetente = "Atualização de cadastro - Grupo Patriarca";
-    $email_remetente .= $email;
+    $email_remetente .= "vendas@grupopatriarca.com.br";
     $assunto = "Contato Grupo Patriarca " . $data_atual;
     $header .= "Content-type: text/html; charset=utf-8" . $quebra_linha;
-    $header .= "From: ". $nome_remetente . " <" . $email_remetente . ">" . $quebra_linha;
+    $header .= "X-Priority: 1" . $quebra_linha;
+    $header .= "From: " . $email_remetente . $quebra_linha;
 
-    if (!mail($destinatario, $assunto, $conteudo, $header, "-r".$destinatario)) {
+    if (!mail($destinatario, $assunto, $conteudo, $header, "-r" . $destinatario)) {
         mail($destinatario, $assunto, $conteudo, $header);
     }
     echo "<meta http-equiv='refresh' content='0;url=http://www.grupopatriarca.com.br/atualize-o-seu-cadastro/?enviado=1' />";
